@@ -4,7 +4,7 @@
   <test name="MainPage" >
   
     <classes>
-       <class name="am.itu.arca.HomePageTests.HomePageLogoTest" />
+       <class name="am.itu.arca.home.page.tests.HomePageLogoTest" />
     
           
     </classes>

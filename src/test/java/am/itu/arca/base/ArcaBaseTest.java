@@ -11,13 +11,14 @@ public class ArcaBaseTest {
 	
 	@BeforeClass
 	public void setUp() {
-		ChromeDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.get("https://cabinet.arca.am/");
 		driver.manage().window().maximize();
+		System.out.println("after wait");
 	}
 	
 	@AfterClass
-	public void cleanup() {
+	public void tearDown() {
 		driver.quit();
 	}
 }

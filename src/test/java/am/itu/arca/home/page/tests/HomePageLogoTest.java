@@ -1,4 +1,4 @@
-package am.itu.arca.HomePageTests;
+package am.itu.arca.home.page.tests;
 
 import org.testng.annotations.Test;
 
@@ -14,6 +14,7 @@ public class HomePageLogoTest extends ArcaBaseTest{
 		newsLink.goToNewsPage();
 		Thread.sleep(4000);
 	}
+	
 //	public void mainPageLogoIsPresent() {
 //		HomePageObjects mainLogo = new HomePageObjects(driver);
 //		mainLogo.isLogoPresent();
